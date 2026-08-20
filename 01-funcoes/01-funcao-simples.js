@@ -1,18 +1,17 @@
-function saudacao() {
-    console.log("Olá, seja bem-vindo!");
+function saudacao(){
+    console.log("Olá, turma!");
 }
 
-saudacao(); // Chama a função saudacao e exibe a mensagem no console
+saudacao();
 
-
-function bomdia() {
+function bomDia(){
     console.log("Bom dia!");
 }
 
-bomdia(); // Chama a função bomdia e exibe a mensagem no console
+bomDia();
 
-function apresentar(nome) {
-    console.log("Olá, meu nome é " + nome + ".");
-}   
+function apresentar(nome){
+    console.log(`Olá ${nome}`);
+}
 
-apresentar("Jansen"); // Chama a função apresentar com o argumento "João" e exibe a mensagem no console
+apresentar("Arthur Tardin");
